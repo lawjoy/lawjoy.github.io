@@ -3,7 +3,7 @@ site:
   tab: non # 浏览器标签栏上显示的文本
   title: 💠 NON # 网站的标题
   description: A clean, elegant, and fast static blog template! 🚀 Developed with Astro # 网站的描述，用于SEO等
-  language: cn # 网站的语言，例如 "en" 是英文
+  language: zh # 网站的语言，例如 "en" 是英文
   favicon: /favicon.ico # 网站的图标，用于浏览器标签栏和其他地方显示
   theme: # 更多主题 https://daisyui.com/docs/themes/
     light: winter # 主题的浅色模式
@@ -14,7 +14,7 @@ site:
     pageSize: 8 # 每页显示的文章数量
   menu: # 菜单配置
     - id: home # 菜单项的唯一标识符
-      text: Home # 菜单项显示的文本
+      text: 主页 # 菜单项显示的文本
       href: / # 菜单项链接的地址
       svg: "material-symbols:home-outline-rounded"
       target: _self
@@ -24,29 +24,29 @@ site:
     #   svg: "material-symbols:info-outline-rounded"
     #   target: _self
     - id: blog
-      text: Blogs
+      text: 博客
       href: /blog
       svg: "material-symbols:book-2-outline-rounded"
       target: _self
       subItems:
         - id: all
-          text: All blogs
+          text: 全部博客
           href: /blog
           svg: "material-symbols:ink-pen-outline-rounded"
           target: _self
         - id: tech
-          text: Tech blogs
+          text: 技术博客
           href: /blog/category/tech
           svg: "material-symbols:deployed-code-outline"
           target: _self
         - id: life
-          text: Life blogs
+          text: 日常博客
           href: /blog/category/life
           svg: "material-symbols:earthquake-rounded"
           target: _self
         # 子菜单项配置
     - id: project
-      text: Project
+      text: 项目
       href: /project
       svg: "material-symbols:code-blocks-outline"
       target: _self
@@ -68,7 +68,7 @@ user:
   avatar: /profile.png # 用户头像路径
   sidebar: # 侧边栏配置
     social:
-      - href: "https://space.bilibili.com/438392347" # 链接
+      - href: "https://space.bilibili.com/3546879082105648" # 链接
         ariaLabel: Support my work # 图标的可访问性标签
         title: Support my work # 图标的悬浮标题
         svg: "ri:cup-line"
@@ -76,7 +76,7 @@ user:
         ariaLabel: Github
         title: Github
         svg: "ri:github-line"
-      - href: "https://space.bilibili.com/438392347"
+      - href: "https://space.bilibili.com/3546879082105648"
         ariaLabel: BiliBili
         title: BiliBili
         svg: "ri:bilibili-line"

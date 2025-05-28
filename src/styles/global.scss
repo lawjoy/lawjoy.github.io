@@ -669,3 +669,6 @@ code {
     @apply block text-center py-8 text-base-content opacity-50;
   }
 }
+.prose {
+  color: rgba(30, 30, 30, 1); // 0.8 表示 80% 不透明度
+}

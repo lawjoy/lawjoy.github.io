@@ -1,20 +1,18 @@
 ---
-title: "Markdown Style Guide"
-description: "Here is a sample of some basic Markdown syntax that can be used when writing Markdown content in Astro."
-pubDate: "Jul 01 2024"
-image: /image/image3.png
+title: "Markdown 指南"
+description: "以下是在 Astro 中编写 Markdown 内容时可以使用的一些基本语法示例。"
+pubDate: "05 17 2025"
+image: /image/markdown/background.png
 categories:
   - tech
 tags:
-  - Makrdown
-badge: Pin
+  - Markdown
+badge: FE
 ---
 
-Here is a sample of some basic Markdown syntax that can be used when writing Markdown content in Astro.
+## 标题
 
-## Headings
-
-The following HTML `<h1>`—`<h6>` elements represent six levels of section headings. `<h1>` is the highest section level while `<h6>` is the lowest.
+以下 HTML `<h1>`—`<h6>` 元素表示六个级别的章节标题。 `<h1>` 是最高的部分级别， 而 `<h6>` 是最低的。
 
 # H1
 
@@ -28,15 +26,15 @@ The following HTML `<h1>`—`<h6>` elements represent six levels of section head
 
 ###### H6
 
-## Paragraph
+## 段落
 
-Xerum, quo qui aut unt expliquam qui dolut labo. Aque venitatiusda cum, voluptionse latur sitiae dolessi aut parist aut dollo enim qui voluptate ma dolestendit peritin re plis aut quas inctum laceat est volestemque commosa as cus endigna tectur, offic to cor sequas etum rerum idem sintibus eiur? Quianimin porecus evelectur, cum que nis nust voloribus ratem aut omnimi, sitatur? Quiatem. Nam, omnis sum am facea corem alique molestrunt et eos evelece arcillit ut aut eos eos nus, sin conecerem erum fuga. Ri oditatquam, ad quibus unda veliamenimin cusam et facea ipsamus es exerum sitate dolores editium rerore eost, temped molorro ratiae volorro te reribus dolorer sperchicium faceata tiustia prat.
+&emsp;&emsp;你有没有权利向我们透露你所来自的那个世界的秘密，哪怕只透露一个？’我诗剧中的老法官问他，接着就自己代他回答，‘不，你没有权利；你对自己以前说过的话不得再作什么补充，不得剥夺人们的自由，当年你还在人世时曾竭力捍卫这种自由。不论你带来什么新的信息,都将侵犯人们的信仰自由，因为此信息将被视为奇迹，而人们的信仰自由你在一千五百年前就看得比什么都宝贵。当初你自己经常这样说：“我要使你们成为自由的人。”现在你看到了这些“自由的人”，’老人忽然露出淡淡的一丝若有所思的笑容。
 
-Itatur? Quiatae cullecum rem ent aut odis in re eossequodi nonsequ idebis ne sapicia is sinveli squiatum, core et que aut hariosam ex eat.
+&emsp;&emsp;‘我们曾为此付出昂贵的代价’，他严厉地瞧着囚徒，继续说,‘但我们终于彻底解决了这件事，以你的名义。我们为这自由折腾了十五个世纪但现在解决了，解决得很牢靠。你不信解决得很牢靠？你瞧着我的样子挺温顺，你甚至不屑于向我表示愤慨。但是我告诉你,如今，正是现在而不是过去，这些人比任何时候都相信他们有充分的自由，其实是他们自己把他们的自由乖乖地放到我们的脚边。但这是我们努力的结果，而你所希望的是这样的自由吗？’
 
-## Images
+## 图像
 
-#### Syntax
+#### 语法
 
 ```markdown
 ![Alt text](./full/or/relative/path/of/image)
@@ -44,15 +42,15 @@ Itatur? Quiatae cullecum rem ent aut odis in re eossequodi nonsequ idebis ne sap
 
 #### Output
 
-![blog placeholder](/home.webp)
+![blog placeholder](/image/markdown/non.jpg)
 
-## Blockquotes
+## 块引用
 
-The blockquote element represents content that is quoted from another source, optionally with a citation which must be within a `footer` or `cite` element, and optionally with in-line changes such as annotations and abbreviations.
+blockquote 元素表示从其他来源引用的内容，可以选择使用必须在 `footer` or `cite` 元素内的引用，也可以选择使用内联更改，例如注释和缩写。
 
-### Blockquote without attribution
+### 没有署名的块引用
 
-#### Syntax
+#### 语法
 
 ```markdown
 > Tiam, ad mint andaepu dandae nostion secatur sequo quae.
@@ -64,9 +62,9 @@ The blockquote element represents content that is quoted from another source, op
 > Tiam, ad mint andaepu dandae nostion secatur sequo quae.
 > **Note** that you can use _Markdown syntax_ within a blockquote.
 
-### Blockquote with attribution
+### 署名的块引用
 
-#### Syntax
+#### 语法
 
 ```markdown
 > Don't communicate by sharing memory, share memory by communicating.<br>
@@ -80,9 +78,9 @@ The blockquote element represents content that is quoted from another source, op
 
 [^1]: The above quote is excerpted from Rob Pike's [talk](https://www.youtube.com/watch?v=PAAkCSZUG1c) during Gopherfest, November 18, 2015.
 
-## Tables
+## 表格
 
-#### Syntax
+#### 语法
 
 ```markdown
 | Italics   | Bold     | Code   |
@@ -96,11 +94,11 @@ The blockquote element represents content that is quoted from another source, op
 | --------- | -------- | ------ |
 | _italics_ | **bold** | `code` |
 
-## Code Blocks
+## 代码块
 
-#### Syntax
+#### 语法
 
-we can use 3 backticks ``` in new line and write snippet and close with 3 backticks on new line and to highlight language specific syntac, write one word of language name after first 3 backticks, for eg. html, javascript, css, markdown, typescript, txt, bash
+我们可以在新行中使用 3 个反引号 ``` 并在新行上编写 snippet 并以 3 个反引号结束，为了突出特定于语言的 syntac，在前 3 个反引号后写下语言名称的一个单词，例如。HTML、JavaScript、CSS、Markdown、TypeScript、TXT、Bash
 
 ````markdown
 ```cpp
@@ -164,11 +162,11 @@ int main()
 }
 ```
 
-## List Types
+## 列表类型
 
-### Ordered List
+### 有序列表
 
-#### Syntax
+#### 语法
 
 ```markdown
 1. First item
@@ -182,9 +180,9 @@ int main()
 2. Second item
 3. Third item
 
-### Unordered List
+### 无序列表
 
-#### Syntax
+#### 语法
 
 ```markdown
 - List item
@@ -198,9 +196,9 @@ int main()
 - Another item
 - And another item
 
-### Nested list
+### 嵌套列表
 
-#### Syntax
+#### 语法
 
 ```markdown
 - Fruit
@@ -222,9 +220,9 @@ int main()
   - Milk
   - Cheese
 
-## Other Elements
+## 其他元素
 
-#### Syntax
+#### 语法
 
 ```markdown
 <abbr title="Graphics Interchange Format">GIF</abbr> is a bitmap image format.

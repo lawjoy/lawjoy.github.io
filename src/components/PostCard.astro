@@ -32,7 +32,7 @@ const displayDate = pubDate ? dayjs(pubDate).format(DATE_FORMAT) : "";
       <div>
         <PostInfo pubDate={displayDate} badge={badge} word={word} time={time} />
         <Heading url={url} title={title}>{title}</Heading>
-        <p class="text-sm text-base-content/70 mb-4">{description}</p>
+        <p class="text-sm text-base-content/80 mb-4">{description}</p>
       </div>
       <PostFilter categories={categories} tags={tags} />
     </div>

@@ -24,7 +24,13 @@ export default defineConfig({
   },
   integrations: [
     mdx(),
-    icon(),
+    icon({
+      include: {
+        local: {
+          source: "./src/icons", // 本地图标目录路径
+        },
+      },
+    }),
     terser({
       compress: true,
       mangle: true,
