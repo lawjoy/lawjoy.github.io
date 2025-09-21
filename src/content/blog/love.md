@@ -3,7 +3,7 @@ title: "同情和爱"
 description: "何为尼采的《查拉图斯特拉如是说》中的爱"
 pubDate: "05 25 2025"
 image: /image/life/non1.jpg
-categories:
+categories1:
   - life
 tags:
   - 尼采
